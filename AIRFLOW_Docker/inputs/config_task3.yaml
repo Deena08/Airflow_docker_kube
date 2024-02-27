@@ -1,0 +1,4 @@
+dag_id: 'task_3'
+schedule_interval: '@weeky'
+catchup: false
+input: 220
