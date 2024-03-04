@@ -15,7 +15,7 @@ data:
           command: [ ]
           env:
             - name: AIRFLOW__CORE__EXECUTOR
-              value: LocalExecutor
+              value: KubernetesExecutor
             - name: AIRFLOW__CORE__FERNET_KEY
               value: {{ .Values.airflow.configs.fernet_key }}
             - name: DB_HOST
@@ -32,11 +32,11 @@ data:
           imagePullPolicy: IfNotPresent
           name: base
           volumeMounts:
-            - mountPath: /home/dhinakaran/Documents/AIRFLOW_Docker/logs
+            - mountPath: /opt/airflow/logs
               name: airflow-logs
-              readOnly: false
+              readOnly: true
             - name: airflow-config
-              mountPath: /home/dhinakaran/Documents/AIRFLOW_Docker/airflow.cfg
+              mountPath: /opt/airflow/airflow.cfg
               subPath: airflow.cfg
               readOnly: true
 

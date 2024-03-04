@@ -17,13 +17,6 @@ spec:
       initContainers:
         - name: wait-for-mysql
           image: public.ecr.aws/runecast/busybox:1.32.1
-          resources:
-           requests:
-            memory: "64Mi"
-            cpu: "250m"
-           limits:
-            memory: "128Mi"
-            cpu: "500m"
           imagePullPolicy: IfNotPresent
           command: [ 'sh', '-c', 'echo -e "Checking for the availability of MySQL Server deployment"; while ! nc -z mysql 3306; do sleep 2;
                       echo waiting...; done; echo -e "  >> MySQL DB Server has started";' ]
@@ -109,13 +102,13 @@ spec:
               value: mysql://$(DB_USER):$(DB_PASSWORD)@$(DB_HOST):3306/$(DB_DATABASE)
           volumeMounts:
             - name: airflow-config
-              mountPath: /home/dhinakaran/Documents/AIRFLOW_Docker/airflow.cfg
+              mountPath: /opt/airflow/airflow.cfg
               subPath: airflow.cfg
             - name: pod-template
-              mountPath: /home/dhinakaran/Documents/AIRFLOW_Docker/pod-template.yaml
+              mountPath: /opt/airflow/pod-template.yaml
               subPath: pod_template.yaml
             - name: airflow-logs
-              mountPath: "/home/dhinakaran/Documents/AIRFLOW_Docker/logs"
+              mountPath: "/opt/airflow/logs"
       volumes:
         - name: airflow-config
           configMap:
@@ -125,26 +118,4 @@ spec:
             name: pod-template-config
         - name: airflow-logs
           persistentVolumeClaim:
-            claimName: airflow-logs  
-
----
-
-apiVersion: autoscaling/v2
-kind: HorizontalPodAutoscaler
-metadata:
-  name: airflow-scheduler-auto
-spec:
-  scaleTargetRef:
-    apiVersion: apps/v1
-    kind: Deployment
-    name: airflow-scheduler
-  minReplicas: 1 
-  maxReplicas: 5 
-  metrics:
-  - type: Resource
-    resource:
-      name: cpu
-      target:
-        type: Utilization
-        averageUtilization: 30
-...
+            claimName: airflow-logs

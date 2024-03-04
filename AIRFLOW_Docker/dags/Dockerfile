@@ -12,4 +12,4 @@ USER airflow
 RUN pip install --no-cache-dir mysqlclient
 
 # Copy DAGs after installing dependencies
-COPY . /opt/airflow/dagscd
+COPY . /opt/airflow/dags

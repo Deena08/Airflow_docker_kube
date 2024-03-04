@@ -1,0 +1,182 @@
+[2024-03-03T14:32:01.815+0000] {processor.py:161} INFO - Started process (PID=41) to work on /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:32:01.816+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_gen.py for tasks to queue
+[2024-03-03T14:32:01.817+0000] {logging_mixin.py:188} INFO - [2024-03-03T14:32:01.817+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:32:01.819+0000] {logging_mixin.py:188} INFO - [2024-03-03T14:32:01.819+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_gen.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_gen.py", line 4, in <module>
+    from dag_generator import dag_gen
+ModuleNotFoundError: No module named 'dag_generator'
+[2024-03-03T14:32:01.820+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:32:01.835+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_gen.py took 0.022 seconds
+[2024-03-03T14:32:32.382+0000] {processor.py:161} INFO - Started process (PID=53) to work on /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:32:32.383+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_gen.py for tasks to queue
+[2024-03-03T14:32:32.384+0000] {logging_mixin.py:188} INFO - [2024-03-03T14:32:32.384+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:32:32.386+0000] {logging_mixin.py:188} INFO - [2024-03-03T14:32:32.386+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_gen.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_gen.py", line 4, in <module>
+    from dag_generator import dag_gen
+ModuleNotFoundError: No module named 'dag_generator'
+[2024-03-03T14:32:32.387+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:32:32.402+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_gen.py took 0.021 seconds
+[2024-03-03T14:33:02.730+0000] {processor.py:161} INFO - Started process (PID=65) to work on /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:33:02.731+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_gen.py for tasks to queue
+[2024-03-03T14:33:02.732+0000] {logging_mixin.py:188} INFO - [2024-03-03T14:33:02.731+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:33:02.734+0000] {logging_mixin.py:188} INFO - [2024-03-03T14:33:02.733+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_gen.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_gen.py", line 4, in <module>
+    from dag_generator import dag_gen
+ModuleNotFoundError: No module named 'dag_generator'
+[2024-03-03T14:33:02.734+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:33:02.747+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_gen.py took 0.019 seconds
+[2024-03-03T14:33:33.084+0000] {processor.py:161} INFO - Started process (PID=77) to work on /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:33:33.084+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_gen.py for tasks to queue
+[2024-03-03T14:33:33.086+0000] {logging_mixin.py:188} INFO - [2024-03-03T14:33:33.086+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:33:33.088+0000] {logging_mixin.py:188} INFO - [2024-03-03T14:33:33.088+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_gen.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_gen.py", line 4, in <module>
+    from dag_generator import dag_gen
+ModuleNotFoundError: No module named 'dag_generator'
+[2024-03-03T14:33:33.089+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:33:33.103+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_gen.py took 0.021 seconds
+[2024-03-03T14:34:03.470+0000] {processor.py:161} INFO - Started process (PID=89) to work on /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:34:03.471+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_gen.py for tasks to queue
+[2024-03-03T14:34:03.472+0000] {logging_mixin.py:188} INFO - [2024-03-03T14:34:03.472+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:34:03.475+0000] {logging_mixin.py:188} INFO - [2024-03-03T14:34:03.474+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_gen.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_gen.py", line 4, in <module>
+    from dag_generator import dag_gen
+ModuleNotFoundError: No module named 'dag_generator'
+[2024-03-03T14:34:03.475+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:34:03.490+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_gen.py took 0.021 seconds
+[2024-03-03T14:34:33.842+0000] {processor.py:161} INFO - Started process (PID=101) to work on /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:34:33.843+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_gen.py for tasks to queue
+[2024-03-03T14:34:33.844+0000] {logging_mixin.py:188} INFO - [2024-03-03T14:34:33.844+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:34:33.846+0000] {logging_mixin.py:188} INFO - [2024-03-03T14:34:33.846+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_gen.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_gen.py", line 4, in <module>
+    from dag_generator import dag_gen
+ModuleNotFoundError: No module named 'dag_generator'
+[2024-03-03T14:34:33.846+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:34:33.860+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_gen.py took 0.020 seconds
+[2024-03-03T14:35:04.236+0000] {processor.py:161} INFO - Started process (PID=113) to work on /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:35:04.237+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_gen.py for tasks to queue
+[2024-03-03T14:35:04.238+0000] {logging_mixin.py:188} INFO - [2024-03-03T14:35:04.238+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:35:04.240+0000] {logging_mixin.py:188} INFO - [2024-03-03T14:35:04.240+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_gen.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_gen.py", line 4, in <module>
+    from dag_generator import dag_gen
+ModuleNotFoundError: No module named 'dag_generator'
+[2024-03-03T14:35:04.241+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:35:04.254+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_gen.py took 0.019 seconds
+[2024-03-03T14:35:34.634+0000] {processor.py:161} INFO - Started process (PID=125) to work on /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:35:34.634+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_gen.py for tasks to queue
+[2024-03-03T14:35:34.635+0000] {logging_mixin.py:188} INFO - [2024-03-03T14:35:34.635+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:35:34.638+0000] {logging_mixin.py:188} INFO - [2024-03-03T14:35:34.638+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_gen.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_gen.py", line 4, in <module>
+    from dag_generator import dag_gen
+ModuleNotFoundError: No module named 'dag_generator'
+[2024-03-03T14:35:34.638+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:35:34.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_gen.py took 0.019 seconds
+[2024-03-03T14:36:05.043+0000] {processor.py:161} INFO - Started process (PID=137) to work on /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:36:05.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_gen.py for tasks to queue
+[2024-03-03T14:36:05.045+0000] {logging_mixin.py:188} INFO - [2024-03-03T14:36:05.044+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:36:05.048+0000] {logging_mixin.py:188} INFO - [2024-03-03T14:36:05.047+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_gen.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_gen.py", line 4, in <module>
+    from dag_generator import dag_gen
+ModuleNotFoundError: No module named 'dag_generator'
+[2024-03-03T14:36:05.048+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:36:05.065+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_gen.py took 0.025 seconds
+[2024-03-03T14:36:35.555+0000] {processor.py:161} INFO - Started process (PID=149) to work on /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:36:35.556+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_gen.py for tasks to queue
+[2024-03-03T14:36:35.557+0000] {logging_mixin.py:188} INFO - [2024-03-03T14:36:35.556+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:36:35.558+0000] {logging_mixin.py:188} INFO - [2024-03-03T14:36:35.558+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_gen.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_gen.py", line 4, in <module>
+    from dag_generator import dag_gen
+ModuleNotFoundError: No module named 'dag_generator'
+[2024-03-03T14:36:35.559+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:36:35.571+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_gen.py took 0.018 seconds
+[2024-03-03T14:52:15.148+0000] {processor.py:161} INFO - Started process (PID=40) to work on /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:52:15.149+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_gen.py for tasks to queue
+[2024-03-03T14:52:15.151+0000] {logging_mixin.py:188} INFO - [2024-03-03T14:52:15.151+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:52:15.155+0000] {logging_mixin.py:188} INFO - [2024-03-03T14:52:15.154+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_gen.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_gen.py", line 4, in <module>
+    from dag_generator import dag_gen
+ModuleNotFoundError: No module named 'dag_generator'
+[2024-03-03T14:52:15.155+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:52:15.172+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_gen.py took 0.027 seconds
+[2024-03-03T14:52:45.746+0000] {processor.py:161} INFO - Started process (PID=52) to work on /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:52:45.747+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_gen.py for tasks to queue
+[2024-03-03T14:52:45.748+0000] {logging_mixin.py:188} INFO - [2024-03-03T14:52:45.748+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:52:45.751+0000] {logging_mixin.py:188} INFO - [2024-03-03T14:52:45.750+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_gen.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_gen.py", line 4, in <module>
+    from dag_generator import dag_gen
+ModuleNotFoundError: No module named 'dag_generator'
+[2024-03-03T14:52:45.751+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:52:45.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_gen.py took 0.023 seconds
+[2024-03-03T14:53:16.088+0000] {processor.py:161} INFO - Started process (PID=64) to work on /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:53:16.089+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_gen.py for tasks to queue
+[2024-03-03T14:53:16.090+0000] {logging_mixin.py:188} INFO - [2024-03-03T14:53:16.090+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:53:16.093+0000] {logging_mixin.py:188} INFO - [2024-03-03T14:53:16.093+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/dag_gen.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_gen.py", line 4, in <module>
+    from dag_generator import dag_gen
+ModuleNotFoundError: No module named 'dag_generator'
+[2024-03-03T14:53:16.094+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_gen.py
+[2024-03-03T14:53:16.111+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_gen.py took 0.026 seconds
