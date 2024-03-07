@@ -3,8 +3,8 @@ Airflow on Kubernetes
 Overview
 
 This repository contains configurations and instructions for deploying Apache Airflow on Kubernetes. Apache Airflow is an open-source workflow automation and scheduling platform. By deploying Airflow on Kubernetes, you can leverage Kubernetes' scalability, reliability, and ease of management to run your workflows.
-Pre requisites
 
+Pre requisites
 Before you begin, ensure you have the following installed:
     • Kubernetes cluster: You need a Kubernetes cluster to deploy Airflow. You can use a local cluster (e.g., Minikube or Kind) for testing or a production-grade cluster like GKE, EKS, or AKS.
     • kubectl: The Kubernetes command-line tool (kubectl) should be installed and configured to connect to your Kubernetes cluster.
