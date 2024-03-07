@@ -1,0 +1,16 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: snowflake-ingress
+spec:
+  rules:
+  - host: snowflakeconn.com
+    http:
+      paths:
+      - path: /snowflake-job
+        pathType: Prefix
+        backend:
+          service:
+            name: internal-service
+            port:
+              number: 8081
