@@ -21,7 +21,9 @@ Step 2: Deploy Airflow using Helm
 Once you've configured Airflow, deploy it using Helm. Helm simplifies the deployment process by managing charts (packages of pre-configured Kubernetes resources).
 
 helm repo add apache-airflow https://airflow.apache.org
+
 helm repo update
+
 helm install airflow apache-airflow/airflow
 
 This command installs Airflow using the default configuration provided by the Helm chart. You can customize the deployment by specifying your configuration values.
