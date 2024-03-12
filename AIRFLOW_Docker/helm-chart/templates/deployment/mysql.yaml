@@ -24,12 +24,12 @@ spec:
         app: mysql-app
     spec:
       restartPolicy: Always
-      
+      # prevent chown running in startup script
       securityContext:
         runAsUser: 999
       containers:
-        
-        - image: mysql:latest
+        # v8 required extra libraries to be installed in airflow images for authentication
+        - image: bingozhou/mysql5.7:latest
           name: mysql-app
           imagePullPolicy: IfNotPresent
           ports:

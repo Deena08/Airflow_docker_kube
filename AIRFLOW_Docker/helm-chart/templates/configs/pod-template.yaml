@@ -15,7 +15,7 @@ data:
           command: [ ]
           env:
             - name: AIRFLOW__CORE__EXECUTOR
-              value: KubernetesExecutor
+              value: LocalExecutor
             - name: AIRFLOW__CORE__FERNET_KEY
               value: {{ .Values.airflow.configs.fernet_key }}
             - name: DB_HOST
@@ -34,7 +34,7 @@ data:
           volumeMounts:
             - mountPath: /opt/airflow/logs
               name: airflow-logs
-              readOnly: true
+              readOnly: false
             - name: airflow-config
               mountPath: /opt/airflow/airflow.cfg
               subPath: airflow.cfg

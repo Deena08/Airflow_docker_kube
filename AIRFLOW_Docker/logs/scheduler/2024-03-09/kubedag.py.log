@@ -1,0 +1,147 @@
+[2024-03-09T09:59:43.265+0000] {processor.py:161} INFO - Started process (PID=38) to work on /opt/airflow/dags/kubedag.py
+[2024-03-09T09:59:43.266+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kubedag.py for tasks to queue
+[2024-03-09T09:59:43.267+0000] {logging_mixin.py:188} INFO - [2024-03-09T09:59:43.267+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kubedag.py
+[2024-03-09T09:59:43.279+0000] {processor.py:840} INFO - DAG(s) 'my_kubernetes_dag' retrieved from /opt/airflow/dags/kubedag.py
+[2024-03-09T09:59:43.298+0000] {logging_mixin.py:188} INFO - [2024-03-09T09:59:43.298+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-09T09:59:43.342+0000] {logging_mixin.py:188} INFO - [2024-03-09T09:59:43.342+0000] {dag.py:3823} INFO - Setting next_dagrun for my_kubernetes_dag to None, run_after=None
+[2024-03-09T09:59:43.357+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kubedag.py took 0.095 seconds
+[2024-03-09T10:00:13.881+0000] {processor.py:161} INFO - Started process (PID=50) to work on /opt/airflow/dags/kubedag.py
+[2024-03-09T10:00:13.883+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kubedag.py for tasks to queue
+[2024-03-09T10:00:13.885+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:00:13.884+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:00:13.889+0000] {processor.py:840} INFO - DAG(s) 'my_kubernetes_dag' retrieved from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:00:13.905+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:00:13.905+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-09T10:00:13.921+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:00:13.921+0000] {dag.py:3823} INFO - Setting next_dagrun for my_kubernetes_dag to None, run_after=None
+[2024-03-09T10:00:13.934+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kubedag.py took 0.055 seconds
+[2024-03-09T10:00:44.251+0000] {processor.py:161} INFO - Started process (PID=62) to work on /opt/airflow/dags/kubedag.py
+[2024-03-09T10:00:44.252+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kubedag.py for tasks to queue
+[2024-03-09T10:00:44.253+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:00:44.253+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:00:44.258+0000] {processor.py:840} INFO - DAG(s) 'my_kubernetes_dag' retrieved from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:00:44.277+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:00:44.277+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-09T10:00:44.295+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:00:44.295+0000] {dag.py:3823} INFO - Setting next_dagrun for my_kubernetes_dag to None, run_after=None
+[2024-03-09T10:00:44.310+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kubedag.py took 0.061 seconds
+[2024-03-09T10:01:14.570+0000] {processor.py:161} INFO - Started process (PID=74) to work on /opt/airflow/dags/kubedag.py
+[2024-03-09T10:01:14.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kubedag.py for tasks to queue
+[2024-03-09T10:01:14.572+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:01:14.572+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:01:14.579+0000] {processor.py:840} INFO - DAG(s) 'my_kubernetes_dag' retrieved from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:01:14.599+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:01:14.599+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-09T10:01:14.621+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:01:14.621+0000] {dag.py:3823} INFO - Setting next_dagrun for my_kubernetes_dag to None, run_after=None
+[2024-03-09T10:01:14.637+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kubedag.py took 0.069 seconds
+[2024-03-09T10:01:44.983+0000] {processor.py:161} INFO - Started process (PID=86) to work on /opt/airflow/dags/kubedag.py
+[2024-03-09T10:01:44.984+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kubedag.py for tasks to queue
+[2024-03-09T10:01:44.985+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:01:44.985+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:01:44.991+0000] {processor.py:840} INFO - DAG(s) 'my_kubernetes_dag' retrieved from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:01:45.011+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:01:45.011+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-09T10:01:45.026+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:01:45.026+0000] {dag.py:3823} INFO - Setting next_dagrun for my_kubernetes_dag to None, run_after=None
+[2024-03-09T10:01:45.037+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kubedag.py took 0.056 seconds
+[2024-03-09T10:02:15.368+0000] {processor.py:161} INFO - Started process (PID=98) to work on /opt/airflow/dags/kubedag.py
+[2024-03-09T10:02:15.370+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kubedag.py for tasks to queue
+[2024-03-09T10:02:15.372+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:02:15.371+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:02:15.378+0000] {processor.py:840} INFO - DAG(s) 'my_kubernetes_dag' retrieved from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:02:15.396+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:02:15.395+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-09T10:02:15.413+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:02:15.413+0000] {dag.py:3823} INFO - Setting next_dagrun for my_kubernetes_dag to None, run_after=None
+[2024-03-09T10:02:15.429+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kubedag.py took 0.063 seconds
+[2024-03-09T10:02:45.760+0000] {processor.py:161} INFO - Started process (PID=110) to work on /opt/airflow/dags/kubedag.py
+[2024-03-09T10:02:45.762+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kubedag.py for tasks to queue
+[2024-03-09T10:02:45.764+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:02:45.763+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:02:45.769+0000] {processor.py:840} INFO - DAG(s) 'my_kubernetes_dag' retrieved from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:02:45.787+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:02:45.787+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-09T10:02:45.804+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:02:45.804+0000] {dag.py:3823} INFO - Setting next_dagrun for my_kubernetes_dag to None, run_after=None
+[2024-03-09T10:02:45.819+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kubedag.py took 0.061 seconds
+[2024-03-09T10:03:16.159+0000] {processor.py:161} INFO - Started process (PID=122) to work on /opt/airflow/dags/kubedag.py
+[2024-03-09T10:03:16.161+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kubedag.py for tasks to queue
+[2024-03-09T10:03:16.162+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:03:16.162+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:03:16.168+0000] {processor.py:840} INFO - DAG(s) 'my_kubernetes_dag' retrieved from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:03:16.187+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:03:16.187+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-09T10:03:16.206+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:03:16.206+0000] {dag.py:3823} INFO - Setting next_dagrun for my_kubernetes_dag to None, run_after=None
+[2024-03-09T10:03:16.220+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kubedag.py took 0.063 seconds
+[2024-03-09T10:03:46.566+0000] {processor.py:161} INFO - Started process (PID=134) to work on /opt/airflow/dags/kubedag.py
+[2024-03-09T10:03:46.568+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kubedag.py for tasks to queue
+[2024-03-09T10:03:46.570+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:03:46.569+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:03:46.577+0000] {processor.py:840} INFO - DAG(s) 'my_kubernetes_dag' retrieved from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:03:46.596+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:03:46.596+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-09T10:03:46.613+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:03:46.613+0000] {dag.py:3823} INFO - Setting next_dagrun for my_kubernetes_dag to None, run_after=None
+[2024-03-09T10:03:46.627+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kubedag.py took 0.063 seconds
+[2024-03-09T10:04:16.966+0000] {processor.py:161} INFO - Started process (PID=146) to work on /opt/airflow/dags/kubedag.py
+[2024-03-09T10:04:16.966+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kubedag.py for tasks to queue
+[2024-03-09T10:04:16.967+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:04:16.967+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:04:16.972+0000] {processor.py:840} INFO - DAG(s) 'my_kubernetes_dag' retrieved from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:04:16.990+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:04:16.990+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-09T10:04:17.007+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:04:17.007+0000] {dag.py:3823} INFO - Setting next_dagrun for my_kubernetes_dag to None, run_after=None
+[2024-03-09T10:04:17.021+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kubedag.py took 0.058 seconds
+[2024-03-09T10:04:47.382+0000] {processor.py:161} INFO - Started process (PID=158) to work on /opt/airflow/dags/kubedag.py
+[2024-03-09T10:04:47.384+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kubedag.py for tasks to queue
+[2024-03-09T10:04:47.385+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:04:47.385+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:04:47.391+0000] {processor.py:840} INFO - DAG(s) 'my_kubernetes_dag' retrieved from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:04:47.406+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:04:47.406+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-09T10:04:47.423+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:04:47.423+0000] {dag.py:3823} INFO - Setting next_dagrun for my_kubernetes_dag to None, run_after=None
+[2024-03-09T10:04:47.436+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kubedag.py took 0.056 seconds
+[2024-03-09T10:05:17.727+0000] {processor.py:161} INFO - Started process (PID=170) to work on /opt/airflow/dags/kubedag.py
+[2024-03-09T10:05:17.729+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kubedag.py for tasks to queue
+[2024-03-09T10:05:17.731+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:05:17.730+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:05:17.738+0000] {processor.py:840} INFO - DAG(s) 'my_kubernetes_dag' retrieved from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:05:17.758+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:05:17.757+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-09T10:05:17.779+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:05:17.779+0000] {dag.py:3823} INFO - Setting next_dagrun for my_kubernetes_dag to None, run_after=None
+[2024-03-09T10:05:17.796+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kubedag.py took 0.072 seconds
+[2024-03-09T10:05:48.142+0000] {processor.py:161} INFO - Started process (PID=182) to work on /opt/airflow/dags/kubedag.py
+[2024-03-09T10:05:48.143+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kubedag.py for tasks to queue
+[2024-03-09T10:05:48.144+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:05:48.144+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:05:48.150+0000] {processor.py:840} INFO - DAG(s) 'my_kubernetes_dag' retrieved from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:05:48.168+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:05:48.168+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-09T10:05:48.185+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:05:48.185+0000] {dag.py:3823} INFO - Setting next_dagrun for my_kubernetes_dag to None, run_after=None
+[2024-03-09T10:05:48.199+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kubedag.py took 0.059 seconds
+[2024-03-09T10:06:18.522+0000] {processor.py:161} INFO - Started process (PID=194) to work on /opt/airflow/dags/kubedag.py
+[2024-03-09T10:06:18.524+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kubedag.py for tasks to queue
+[2024-03-09T10:06:18.526+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:06:18.525+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:06:18.531+0000] {processor.py:840} INFO - DAG(s) 'my_kubernetes_dag' retrieved from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:06:18.548+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:06:18.548+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-09T10:06:18.565+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:06:18.565+0000] {dag.py:3823} INFO - Setting next_dagrun for my_kubernetes_dag to None, run_after=None
+[2024-03-09T10:06:18.580+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kubedag.py took 0.062 seconds
+[2024-03-09T10:06:48.902+0000] {processor.py:161} INFO - Started process (PID=206) to work on /opt/airflow/dags/kubedag.py
+[2024-03-09T10:06:48.903+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kubedag.py for tasks to queue
+[2024-03-09T10:06:48.904+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:06:48.903+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:06:48.909+0000] {processor.py:840} INFO - DAG(s) 'my_kubernetes_dag' retrieved from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:06:48.928+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:06:48.928+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-09T10:06:48.943+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:06:48.942+0000] {dag.py:3823} INFO - Setting next_dagrun for my_kubernetes_dag to None, run_after=None
+[2024-03-09T10:06:48.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kubedag.py took 0.054 seconds
+[2024-03-09T10:07:19.287+0000] {processor.py:161} INFO - Started process (PID=218) to work on /opt/airflow/dags/kubedag.py
+[2024-03-09T10:07:19.289+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kubedag.py for tasks to queue
+[2024-03-09T10:07:19.291+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:07:19.290+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:07:19.297+0000] {processor.py:840} INFO - DAG(s) 'my_kubernetes_dag' retrieved from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:07:19.314+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:07:19.314+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-09T10:07:19.333+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:07:19.332+0000] {dag.py:3823} INFO - Setting next_dagrun for my_kubernetes_dag to None, run_after=None
+[2024-03-09T10:07:19.348+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kubedag.py took 0.064 seconds
+[2024-03-09T10:07:49.701+0000] {processor.py:161} INFO - Started process (PID=230) to work on /opt/airflow/dags/kubedag.py
+[2024-03-09T10:07:49.703+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kubedag.py for tasks to queue
+[2024-03-09T10:07:49.704+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:07:49.703+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:07:49.709+0000] {processor.py:840} INFO - DAG(s) 'my_kubernetes_dag' retrieved from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:07:49.725+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:07:49.725+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-09T10:07:49.740+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:07:49.740+0000] {dag.py:3823} INFO - Setting next_dagrun for my_kubernetes_dag to None, run_after=None
+[2024-03-09T10:07:49.755+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kubedag.py took 0.056 seconds
+[2024-03-09T10:08:20.075+0000] {processor.py:161} INFO - Started process (PID=242) to work on /opt/airflow/dags/kubedag.py
+[2024-03-09T10:08:20.077+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kubedag.py for tasks to queue
+[2024-03-09T10:08:20.078+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:08:20.078+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:08:20.083+0000] {processor.py:840} INFO - DAG(s) 'my_kubernetes_dag' retrieved from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:08:20.100+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:08:20.100+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-09T10:08:20.115+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:08:20.115+0000] {dag.py:3823} INFO - Setting next_dagrun for my_kubernetes_dag to None, run_after=None
+[2024-03-09T10:08:20.127+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kubedag.py took 0.054 seconds
+[2024-03-09T10:08:50.465+0000] {processor.py:161} INFO - Started process (PID=254) to work on /opt/airflow/dags/kubedag.py
+[2024-03-09T10:08:50.467+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kubedag.py for tasks to queue
+[2024-03-09T10:08:50.468+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:08:50.468+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:08:50.475+0000] {processor.py:840} INFO - DAG(s) 'my_kubernetes_dag' retrieved from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:08:50.490+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:08:50.490+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-09T10:08:50.504+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:08:50.504+0000] {dag.py:3823} INFO - Setting next_dagrun for my_kubernetes_dag to None, run_after=None
+[2024-03-09T10:08:50.516+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kubedag.py took 0.053 seconds
+[2024-03-09T10:09:20.868+0000] {processor.py:161} INFO - Started process (PID=266) to work on /opt/airflow/dags/kubedag.py
+[2024-03-09T10:09:20.870+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kubedag.py for tasks to queue
+[2024-03-09T10:09:20.872+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:09:20.871+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:09:20.877+0000] {processor.py:840} INFO - DAG(s) 'my_kubernetes_dag' retrieved from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:09:20.894+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:09:20.894+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-09T10:09:20.914+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:09:20.914+0000] {dag.py:3823} INFO - Setting next_dagrun for my_kubernetes_dag to None, run_after=None
+[2024-03-09T10:09:20.930+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kubedag.py took 0.065 seconds
+[2024-03-09T10:10:25.339+0000] {processor.py:161} INFO - Started process (PID=278) to work on /opt/airflow/dags/kubedag.py
+[2024-03-09T10:10:25.340+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/kubedag.py for tasks to queue
+[2024-03-09T10:10:25.342+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:10:25.341+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:10:25.349+0000] {processor.py:840} INFO - DAG(s) 'my_kubernetes_dag' retrieved from /opt/airflow/dags/kubedag.py
+[2024-03-09T10:10:25.384+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:10:25.383+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-03-09T10:10:25.405+0000] {logging_mixin.py:188} INFO - [2024-03-09T10:10:25.405+0000] {dag.py:3823} INFO - Setting next_dagrun for my_kubernetes_dag to None, run_after=None
+[2024-03-09T10:10:25.420+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/kubedag.py took 0.083 seconds

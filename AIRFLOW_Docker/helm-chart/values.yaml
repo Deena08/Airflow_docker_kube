@@ -1,7 +1,7 @@
 airflow:
   dags_image:
-    repository: deena08/airflowdags  # repository URL
-    tag: v1.0                              # airflow dags image version
+    repository: localhost:5001/airflow_first_dag    # repository URL
+    tag: 0.1.0                                      # airflow dags image version
     pull_policy: Always                             # change this to `Always` if changes applied on same tagged image.
   webserver:
     username: admin
